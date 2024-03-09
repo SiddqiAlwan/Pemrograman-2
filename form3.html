@@ -1,0 +1,34 @@
+<html >
+<body>
+    <form action="p3.php" method="post">
+        Nama : <input type ="text" name="nama"><br>
+        Jurusan : <input type ="text" name="jurusan"><br>
+        Nilai tugas : <input type ="text" name="nilaitugas"><br>
+        Nilai UTS : <input type ="text" name="nilaiuts"><br>
+        Nilai UAS : <input type ="text" name="nilaiuas"><br>
+        <input type="submit" value="HITUNG">
+    </form>
+    <html>
+        <head>
+    
+        <body>
+        <form method="post" action="p2.php">
+            <label for="nilai1">Nilai 1:</label>
+            <input type="text" name="nilai1" required>
+
+            <label for="operator">Pilih Operasi:</label>
+            <select name="operator" required>
+                <option value="tambah">Penambahan +</option>
+                <option value="kurang">Pengurangan -</option>
+                <option value="kali">Perkalian *</option>
+                <option value="bagi">Pembagian /</option>
+            </select>
+        
+            <label for="nilai2">Nilai 2:</label>
+            <input type="text" name="nilai2" required>
+        
+            <button type="submit">submit</button>
+        </form>
+        
+        </body>
+        </html>
